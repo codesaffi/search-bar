@@ -54,7 +54,7 @@ The filtered results are displayed with images, names, and descriptions.
 
 
 
-  <!-- <div className="App">
+  <div className="App">
     <div className="search-bar">
       <input
         type="text"
@@ -74,5 +74,5 @@ The filtered results are displayed with images, names, and descriptions.
         </div>
       ))}
     </div>
-  </div> -->
+  </div>
     
