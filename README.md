@@ -54,25 +54,25 @@ The filtered results are displayed with images, names, and descriptions.
 
 
 
-  <div className="App">
-    <div className="search-bar">
-      <input
+  div className="App">
+    div className="search-bar">
+      input
         type="text"
         placeholder="Search..."
         value={query}
         onChange={handleInputChange}
       />
-    </div>
-    <div className="results-list">
+    /div>
+    div className="results-list">
       {filteredData.map((result) => (
-        <div key={result.id} className="result-item">
-          <img src={result.image} alt={result.name} />
-          <div className="result-info">
-            <h3>{result.name}</h3>
-            <p>{result.description}</p>
-          </div>
-        </div>
+        div key={result.id} className="result-item">
+          img src={result.image} alt={result.name} />
+          div className="result-info">
+            h3>{result.name}/h3>
+            p>{result.description}/p>
+          /div>
+        /div>
       ))}
-    </div>
-  </div>
+    /div>
+  div>
     
