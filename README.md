@@ -26,11 +26,19 @@ NOW CREATE YOUR DATA LIKE THIS
 
 
   const data = [
+  
     { id: 1, name: 'Apple', description: 'A sweet red fruit', image: 'https://via.placeholder.com/150' },
+    
     { id: 2, name: 'Banana', description: 'A long yellow fruit', image: 'https://via.placeholder.com/150' },
+    
     { id: 3, name: 'Orange', description: 'A round orange fruit', image: 'https://via.placeholder.com/150' },
+    
     { id: 4, name: 'Pineapple', description: 'A tropical fruit with spiky skin', image: 'https://via.placeholder.com/150' },
-    { id: 5, name: 'Strawberry', description: 'A small red fruit with seeds on the outside', image: 'https://via.placeholder.com/150' },
+    
+    { id: 5, name: 'Strawberry', description: 'A small red fruit with seeds on the outside', image:
+    
+    'https://via.placeholder.com/150' },
+    
   ];
 
 
@@ -54,25 +62,25 @@ The filtered results are displayed with images, names, and descriptions.
 
 
 
-  div className="App">
-    div className="search-bar">
+  div className="App"
+    div className="search-bar"
       input
         type="text"
         placeholder="Search..."
         value={query}
         onChange={handleInputChange}
-      />
-    /div>
-    div className="results-list">
+      
+    div
+    div className="results-list"
       {filteredData.map((result) => (
-        div key={result.id} className="result-item">
-          img src={result.image} alt={result.name} />
-          div className="result-info">
-            h3>{result.name}/h3>
-            p>{result.description}/p>
-          /div>
-        /div>
+        div key={result.id} className="result-item"
+          img src={result.image} alt={result.name} 
+          div className="result-info"
+            h3{result.name}h3
+            p{result.description}p
+          div
+        div
       ))}
-    /div>
-  div>
+    div
+  div
     
